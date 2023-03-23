@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { Experience } from '@/sections/experience'
 import { education, events, jobs } from '@/data/experiences'
+import { Subheader } from '@/sections/subheader'
 
 const Home = () => (
   <>
@@ -13,6 +14,9 @@ const Home = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
+
+    <Subheader />
+
     <Experience experience={jobs} />
     <Experience experience={events} />
     <Experience experience={education} />

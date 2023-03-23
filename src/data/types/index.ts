@@ -4,6 +4,7 @@ import { HeaderType } from '@/data/types/header'
 
 export type ProjectDataType = {
   header: HeaderType
+  subheader: string
   experiences: {
     jobs: ExperienceType
     events: ExperienceType
