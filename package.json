@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "watch": "tsc --watch",
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install"
