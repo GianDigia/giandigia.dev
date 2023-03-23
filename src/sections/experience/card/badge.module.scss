@@ -1,0 +1,10 @@
+@import '../../../styles/palettes.module';
+@import '../../../pages/app.module.scss';
+
+.wrapper {
+  @include accentColorOnHover;
+
+  position: absolute;
+  top: 0.2rem;
+  right: 0.3rem;
+}

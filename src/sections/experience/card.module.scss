@@ -1,0 +1,91 @@
+@import '../../styles/palettes.module';
+
+.card {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.8rem;
+  position: relative;
+
+  &::before, & > .cardBorder {
+    content: '';
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+
+  &:hover::before, &:hover > .cardBorder {
+    opacity: 1;
+  }
+}
+
+.cardBorder {
+  background: radial-gradient(40vw circle at var(--mouse-x) var(--mouse-y), $card-lighting-border-color, transparent 40%);
+  z-index: 1;
+  opacity: 1 !important;
+}
+
+.card::before {
+  background: radial-gradient(40vw circle at var(--mouse-x) var(--mouse-y), $card-lighting-color, transparent 40%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+.cardContent {
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background-color: $card-color;
+  border-radius: inherit;
+  margin: 1px;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.spacer {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  gap: 0.4rem;
+  height: 100%;
+  padding: 1.5rem;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-flow: column;
+  gap: 0.4rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: $text-color;
+  font-weight: 400;
+}
+
+.organizationAndDates {
+  color: $details-color;
+  font-size: 1.1rem;
+  font-weight: 300;
+  display: flex;
+  justify-content: space-between;
+}
+
+.technologiesWrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.description {
+  padding: 0.3rem 0;
+  font-weight: 200;
+  flex-grow: 1;
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}

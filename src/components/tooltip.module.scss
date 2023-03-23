@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+
+  &:hover .message {
+    transition-delay: 250ms;
+    opacity: 1;
+  }
+}
+
+.message {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  opacity: 0;
+  transition: opacity 100ms linear;
+
+  white-space: nowrap;
+}

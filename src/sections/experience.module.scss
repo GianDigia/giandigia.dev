@@ -1,0 +1,20 @@
+@import '../pages/app.module';
+
+.wrapper {
+  @include container;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1em;
+}
+
+.cardsWrapper {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+}
+
+.cardsWrapper:hover > .card {
+  opacity: 1;
+}

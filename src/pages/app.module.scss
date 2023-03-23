@@ -1,3 +1,5 @@
+@import '../styles/palettes.module';
+
 @mixin container {
   max-width: 1200px;
   padding: 0 1rem;
@@ -9,4 +11,12 @@
   gap: 2rem;
   padding: 1rem 0;
   margin: auto;
+}
+
+@mixin accentColorOnHover {
+  transition: color 200ms ease;
+
+  &:hover {
+    color: $accent-color;
+  }
 }

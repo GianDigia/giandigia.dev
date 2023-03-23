@@ -1,0 +1,5 @@
+@import '../../../pages/app.module.scss';
+
+.wrapper {
+  @include accentColorOnHover
+}
