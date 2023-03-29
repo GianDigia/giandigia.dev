@@ -11,7 +11,6 @@ export type ItemType = {
   organization?: string
   badge?: BadgeType
   description?: string
-  hidden?: boolean
   technologies?: TechnologyType[]
 }
 

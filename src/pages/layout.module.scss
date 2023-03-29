@@ -1,0 +1,13 @@
+.wrapper {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.sectionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem 0;
+  margin: auto;
+}

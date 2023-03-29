@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import styles from '@/sections/experience/card/badge.module.scss'
 import { BadgeType } from '@/data/types/experiences'
 

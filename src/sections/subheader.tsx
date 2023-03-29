@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import styles from '@/sections/subheader.module.scss'
 import { projectData } from '@/data'
 

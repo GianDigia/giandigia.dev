@@ -1,5 +1,5 @@
 @import '../../../styles/palettes.module';
-@import '../../../pages/app.module.scss';
+@import '../../../pages/app.module';
 
 .wrapper {
   @include accentColorOnHover;

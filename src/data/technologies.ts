@@ -1,5 +1,5 @@
 import { FaPhp, FaReact } from 'react-icons/fa'
-import { SiGraphql, SiJquery, SiRedux, SiRubyonrails } from 'react-icons/si'
+import { SiGraphql, SiJquery, SiRedux } from 'react-icons/si'
 import {
   TbBrandCss3,
   TbBrandHtml5,
@@ -58,11 +58,6 @@ export const jQuery: TechnologyType = {
 export const ruby: TechnologyType = {
   name: 'Ruby',
   iconComponent: DiRuby,
-}
-
-export const rubyOnRails: TechnologyType = {
-  name: 'Ruby on Rails',
-  iconComponent: SiRubyonrails,
 }
 
 export const php: TechnologyType = {

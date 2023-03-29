@@ -17,9 +17,9 @@ const Home = () => (
 
     <Subheader />
 
-    <Experience experience={jobs} />
-    <Experience experience={events} />
-    <Experience experience={education} />
+    <Experience {...jobs} />
+    <Experience {...events} />
+    <Experience {...education} />
   </>
 )
 

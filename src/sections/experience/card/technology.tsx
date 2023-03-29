@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import styles from '@/sections/experience/card/technology.module.scss'
 import { Tooltip } from '@/components/tooltip'
 import { TechnologyType } from '@/data/types/experiences'

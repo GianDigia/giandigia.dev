@@ -1,7 +1,8 @@
-$text-color: #fff;
-$details-color: #b3b3b3;
-$accent-color: #a295e9;
-$lightGrey: #494954;
+$text-color: rgb(var(--text-color-rgb));
+$background-color: rgb(var(--background-color-rgb));
+$details-color: var(--details-color);
+$accent-color: var(--accent-color);
+$light-grey: var(--light-grey);
 
 /* Magic colors */
 $magic-color-1: #6bc5f8;
@@ -11,5 +12,5 @@ $magic-color-gradient: linear-gradient(-45deg, $magic-color-1, $magic-color-2, $
 /* Card color */
 $card-color: rgb(26, 26, 30);
 /* Card lighting color */
-$card-lighting-color: rgba(152, 157, 242, 0.06);
-$card-lighting-border-color: rgba(152, 157, 242, 0.3);
+$card-lighting-color: rgba(152, 157, 242, 0.1);
+$card-lighting-border-color: rgba(152, 157, 242, 0.7);

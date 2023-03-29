@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import styles from '@/components/text/magic_text.module.scss'
 
 interface Props {

@@ -5,7 +5,6 @@ import {
   php,
   css,
   html,
-  rubyOnRails,
   ruby,
   react,
   jQuery,
@@ -30,7 +29,7 @@ export const jobs: ExperienceType = {
       organization: 'at-point',
       description:
         'During my time at at-point, I had the opportunity to work on various projects for our banking clients, which aimed to digitalize their flows and products. I worked collaboratively with teams on some projects and independently on others. My responsibilities included working on the styling, performance, and implementation of these pre-existing projects, trying to push for well-typed code and best practices during the refactors.',
-      technologies: [react, typeScript, css, ruby, rubyOnRails],
+      technologies: [react, typeScript, css, ruby],
     },
     {
       dates: {
@@ -51,7 +50,7 @@ export const jobs: ExperienceType = {
       title: 'Frontend Software Engineer',
       organization: 'Fatture in Cloud',
       description:
-        'Fatture in Cloud is the most used Italian invoicing software with more than 500k paying customers. As a Front End Developer at Fatture in Cloud my responsibility was mainly to convert the product from a PHP project with some standalone React modules to a React single page application saving most of the already existing codebase, always aiming to follow modern best practices and to deliver clean, optimized and well-typed code. I also gained experience mentoring colleagues and managing the internal design system',
+        'Fatture in Cloud is the most used Italian invoicing software with more than 500k paying customers. In Fatture in Cloud I spent the majority of my time converting the product from a PHP project with some standalone React modules to a React single page application saving most of the already existing codebase, always aiming to follow modern best practices and to deliver clean, optimized and well-typed code. I also gained experience mentoring colleagues and managing the internal design system',
       technologies: [react, redux, typeScript, css, storyBook, php],
     },
     {
@@ -64,7 +63,7 @@ export const jobs: ExperienceType = {
       description:
         "Pix creates product distribution solutions for large homogeneous groups, particularly for schools. As part of a 2 man team, my work consisted in the design, implementation and maintenance of the company's internal management software. The software was built in Ruby on Rails. It had responsive views and dozen of thousands of product records imported from different suppliers.",
 
-      technologies: [html, css, javaScript, jQuery, ruby, rubyOnRails],
+      technologies: [html, css, javaScript, jQuery, ruby],
     },
     {
       title: 'Full Stack Developer',
@@ -85,7 +84,7 @@ export const events: ExperienceType = {
   items: [
     {
       title: 'HackUPC 2019',
-      organization: 'Hackathon in Barcelona 🇪🇸',
+      organization: 'Hackathon in Barcelona',
       badge: {
         iconComponent: genericBadgeIcon,
         link: 'https://devpost.com/software/sky-invaders',
@@ -97,7 +96,7 @@ export const events: ExperienceType = {
     },
     {
       title: 'StartHack 2019',
-      organization: 'Hackathon in Saint Gallen 🇨🇭',
+      organization: 'Hackathon in Saint Gallen',
       badge: {
         iconComponent: genericBadgeIcon,
         link: 'https://devpost.com/software/chrome-voice-authentication',
@@ -108,8 +107,8 @@ export const events: ExperienceType = {
       },
     },
     {
-      title: 'HashCode 2019',
-      organization: 'Google',
+      title: 'Google HashCode 2019',
+      organization: 'University of Trento',
       dates: {
         from: 'Mar 2019',
         to: 'Mar 2019',
@@ -117,7 +116,7 @@ export const events: ExperienceType = {
     },
     {
       title: 'HackUPC 2018',
-      organization: 'Hackathon in Barcelona 🇪🇸',
+      organization: 'Hackathon in Barcelona',
       badge: {
         iconComponent: winnerBadgeIcon,
         link: 'https://devpost.com/software/yeswecan',
@@ -128,8 +127,8 @@ export const events: ExperienceType = {
       },
     },
     {
-      title: 'HashCode 2018',
-      organization: 'Google',
+      title: 'Google HashCode 2018',
+      organization: 'University of Trento',
       dates: {
         from: 'Mar 2018',
         to: 'Mar 2018',
@@ -150,8 +149,8 @@ export const education: ExperienceType = {
       },
     },
     {
-      title: 'High School Graduation in IT and Telecommunications',
-      organization: 'ISIS A. Malignani (Udine)',
+      title: 'High School in IT',
+      organization: 'ISIS A. Malignani',
       dates: {
         from: 'Sep 2011',
         to: 'Jun 2016',

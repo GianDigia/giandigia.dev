@@ -1,6 +1,9 @@
 :root {
-  --foreground-rgb: 255, 255, 255;
-  --background-rgb: 22, 22, 25;
+  --text-color-rgb: 255, 255, 255;
+  --background-color-rgb: 22, 22, 25;
+  --details-color: #b3b3b3;
+  --accent-color: #a295e9;
+  --light-grey: #494954;
 }
 
 * {
@@ -17,14 +20,8 @@ body {
 
 body {
   font-family: 'League Spartan', sans-serif;
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
-}
-
-#__next {
-  padding-top: 4rem;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+  color: rgb(var(--text-color-rgb));
+  background: rgb(var(--background-color-rgb));
 }
 
 a {

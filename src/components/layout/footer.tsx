@@ -2,7 +2,10 @@ import { FC } from 'react'
 import styles from '@/components/layout/footer.module.scss'
 import { projectData } from '@/data'
 
-const { links, credits } = projectData.footer
+const {
+  links,
+  footer: { credits },
+} = projectData
 
 const mappedLinks = links.map((link) => (
   <a key={link.name} className={styles.footerIconLink} href={link.url}>
