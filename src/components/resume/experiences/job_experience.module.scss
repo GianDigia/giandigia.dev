@@ -1,0 +1,47 @@
+@import '../../../styles/resume_palette.module';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+}
+
+.header {
+  display: flex;
+  gap: 0.25em;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  display: inline-flex;
+  gap: 0.25em;
+  font-weight: 400;
+  color: $title-color;
+}
+
+.at {
+  font-weight: 500;
+  color: $accent-color;
+}
+
+.description {
+  text-align: justify;
+  margin-left: 1em;
+  line-height: 1.125em;
+}
+
+.technologiesWrapper {
+  display: flex;
+  gap: 0.125em;
+  margin-left: 1em;
+}
+
+.technology {
+  font-size: 1.25em;
+  color: $accent-color;
+}
+
+.dateRange {
+
+}

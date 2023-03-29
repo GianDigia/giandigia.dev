@@ -12,7 +12,11 @@ export type ItemType = {
   badge?: BadgeType
   description?: string
   technologies?: TechnologyType[]
+  isOnResume?: boolean
+  tags?: TagType[]
 }
+
+type TagType = 'hackathon' | 'winner'
 
 export type TechnologyType = {
   name: string

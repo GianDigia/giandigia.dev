@@ -1,0 +1,31 @@
+@import '../../../styles/resume_palette.module';
+
+.wrapper {
+  min-height: 1.25em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  & div:not(.divider) {
+    white-space: nowrap;
+  }
+}
+
+.title {
+  color: $title-color
+}
+
+.divider {
+  width: 100%;
+  height: 0;
+  margin: 0 0.5rem;
+
+  --divider-width: 0.25em;
+  background: repeating-linear-gradient(
+                  90deg,
+                  $text-color,
+                  $text-color var(--divider-width),
+                  $background-color var(--divider-width),
+                  $background-color calc(var(--divider-width) * 2)
+  );
+}

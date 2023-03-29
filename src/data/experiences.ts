@@ -75,6 +75,7 @@ export const jobs: ExperienceType = {
       description:
         "Develop a web application to create and manage insurance policies. At the beginning of my Web Developer career, I worked for a friend's parents which needed a web application to manage their clients' data.",
       technologies: [html, css, javaScript, php],
+      isOnResume: false,
     },
   ],
 }

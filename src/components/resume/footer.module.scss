@@ -1,0 +1,33 @@
+@import '../../styles/resume_palette.module';
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.linksWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.footerIconLink {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 0.5rem;
+
+  color: $accent-color;
+
+  --items-size: 1em;
+  font-size: var(--items-size);
+
+  svg {
+    width: var(--items-size);
+    height: var(--items-size);
+  }
+}

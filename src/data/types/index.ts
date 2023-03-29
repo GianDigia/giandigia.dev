@@ -5,7 +5,7 @@ import { LinksType } from '@/data/types/links'
 
 export type ProjectDataType = {
   header: HeaderType
-  subheader: string
+  subheader: string[]
   experiences: {
     jobs: ExperienceType
     events: ExperienceType

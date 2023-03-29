@@ -8,8 +8,10 @@ export const projectData: ProjectDataType = {
     sentenceStart: "Hello, it's ",
     magicText: 'Gian',
   },
-  subheader:
-    "I'm a Frontend Software Engineer from Italy 🇮🇹 currently based in Zurich 🇨🇭",
+  subheader: [
+    'An Italian 🇮🇹 Frontend Software Engineer in Zurich 🇨🇭',
+    'I love how computer science can digitize, speed up and automate work operations in everyday life.',
+  ],
   experiences: {
     jobs,
     events,

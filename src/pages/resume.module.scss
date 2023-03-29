@@ -1,0 +1,61 @@
+@import '../styles/resume_palette.module';
+
+.wrapper {
+  padding: 3em;
+  font-weight: 300;
+}
+
+.experiencesWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  gap: 1.5em;
+}
+
+.eventsAndEducationWrapper {
+  display: flex;
+  gap: 1.5em;
+
+  & > div {
+    flex: 1 1 0 ;
+  }
+}
+
+.document {
+  // Force to be an A4 page
+  aspect-ratio: 1/1.414;
+  overflow: scroll;
+
+  background: $background-color;
+  color: $text-color;
+
+  display: grid;
+  // Height of Header, Content, Footer
+  grid-template-rows: max-content 1fr  max-content;
+  gap: 1em;
+
+  font-size: 1.75vw;
+
+  transition: transform 200ms ease;
+
+  padding: 8vw 4vw 4vw 4vw;
+
+  /* BEGIN: RED A4 PAGE BORDER */
+  position: relative;
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    // border: 2px solid red;
+    aspect-ratio: 1/1.414;
+
+    pointer-events: none;
+  }
+  /* END: RED A4 PAGE BORDER */
+
+  // transform: scale(0.3);
+
+  &:hover {
+    transform: scale(1);
+  }
+}
