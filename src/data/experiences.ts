@@ -50,7 +50,7 @@ export const jobs: ExperienceType = {
       title: 'Frontend Software Engineer',
       organization: 'Fatture in Cloud',
       description:
-        'Fatture in Cloud is the most used Italian invoicing software with more than 500k paying customers. In Fatture in Cloud I spent the majority of my time converting the product from a PHP project with some standalone React modules to a React single page application saving most of the already existing codebase, always aiming to follow modern best practices and to deliver clean, optimized and well-typed code. I also gained experience mentoring colleagues and managing the internal design system',
+        'Fatture in Cloud is the most used Italian invoicing software with more than 500k paying customers. I spent the majority of my time converting the product from a PHP project with some standalone React modules to a React single page application saving most of the already existing codebase, always aiming to follow modern best practices and to deliver clean, optimized and well-typed code. I also gained experience mentoring colleagues and managing the internal design system',
       technologies: [react, redux, typeScript, css, storyBook, php],
     },
     {
@@ -75,7 +75,6 @@ export const jobs: ExperienceType = {
       description:
         "Develop a web application to create and manage insurance policies. At the beginning of my Web Developer career, I worked for a friend's parents which needed a web application to manage their clients' data.",
       technologies: [html, css, javaScript, php],
-      isOnResume: false,
     },
   ],
 }
