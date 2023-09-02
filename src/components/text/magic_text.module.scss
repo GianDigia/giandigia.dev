@@ -1,0 +1,26 @@
+@import '../../styles/palettes.module';
+
+.magicWrapper {
+  display: inline-block;
+  position: relative;
+}
+
+@keyframes background-pan {
+  0% {
+    background-position: 0 0;
+  }
+
+  100% {
+    background-position: 54% 54%;
+  }
+}
+
+.magic {
+  animation: background-pan 3s linear infinite;
+  background: $magic-color-gradient;
+
+  background-size: 400% 400%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+}

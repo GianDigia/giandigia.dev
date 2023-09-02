@@ -1,0 +1,59 @@
+@import '../../pages/app.module.scss';
+
+.wrapper {
+  @include container;
+
+  display: grid;
+  grid-template-columns:  repeat(7, minmax(0, 1fr));
+  grid-template-rows:  repeat(1, minmax(0, 1fr));
+
+  margin: auto;
+}
+
+.avatarWrapper {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar {
+  height: 75%;
+
+  /* TODO: This is a workaround for next/image  */
+  width: auto;
+}
+
+.titleWrapper {
+  font-size: 2.5rem;
+  font-weight: 700;
+  grid-column: 2 / 8;
+  grid-row: 1 / 2;
+  margin: auto;
+}
+
+.title {
+
+}
+
+@media (min-width: 640px) {
+  .wrapper {
+    grid-template-columns:  repeat(7, minmax(0, 1fr));
+    grid-template-rows:  repeat(2, minmax(0, 1fr));
+  }
+
+  .avatarWrapper {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+
+  .avatar {
+    height: 125%;
+  }
+
+  .titleWrapper{
+    grid-column: 1 / 8;
+    grid-row: 2 / 3;
+    font-size: 5rem;
+  }
+}

@@ -21,6 +21,12 @@ body {
   background: rgb(var(--background-rgb));
 }
 
+#__next {
+  padding-top: 4rem;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
 a {
   color: inherit;
   text-decoration: none;
