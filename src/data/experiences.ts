@@ -25,7 +25,7 @@ export const jobs: ExperienceType = {
       dates: {
         from: 'May 2022',
       },
-      title: 'Frontend Software Engineer',
+      title: 'Senior Frontend Software Engineer',
       organization: 'at-point',
       description:
         'During my time at at-point, I had the opportunity to work on various projects for our banking clients, which aimed to digitalize their flows and products. I worked collaboratively with teams on some projects and independently on others. My responsibilities included working on the styling, performance, and implementation of these pre-existing projects, trying to push for well-typed code and best practices during the refactors.',
@@ -36,7 +36,7 @@ export const jobs: ExperienceType = {
         from: 'Mar 2022',
         to: 'Apr 2022',
       },
-      title: 'Frontend Software Engineer',
+      title: 'Senior Frontend Software Engineer',
       organization: 'Neulabs',
       description:
         "Neulabs's mission is to discover, acquire, improve, and internationalize direct-to-consumer brands. During my two-month tenure at Neulabs, I collaborated with a colleague to create a new multi-theme design system that would be used across all subsequent customer websites. We designed and implemented the system from scratch and structured the theming functionalities over the Emotion library.",
@@ -47,7 +47,7 @@ export const jobs: ExperienceType = {
         from: 'Jan 2020',
         to: 'Feb 2022',
       },
-      title: 'Frontend Software Engineer',
+      title: 'Senior Frontend Software Engineer',
       organization: 'Fatture in Cloud',
       description:
         'Fatture in Cloud is the most used Italian invoicing software with more than 500k paying customers. I spent the majority of my time converting the product from a PHP project with some standalone React modules to a React single page application saving most of the already existing codebase, always aiming to follow modern best practices and to deliver clean, optimized and well-typed code. I also gained experience mentoring colleagues and managing the internal design system',
