@@ -1,5 +1,11 @@
 import { FaPhp, FaReact } from 'react-icons/fa'
-import { SiGraphql, SiJquery, SiRedux } from 'react-icons/si'
+import {
+  SiGraphql,
+  SiJquery,
+  SiRedux,
+  SiTailwindcss,
+  SiReactquery,
+} from 'react-icons/si'
 import {
   TbBrandCss3,
   TbBrandHtml5,
@@ -63,4 +69,14 @@ export const ruby: TechnologyType = {
 export const php: TechnologyType = {
   name: 'PHP',
   iconComponent: FaPhp,
+}
+
+export const tailwind: TechnologyType = {
+  name: 'Tailwind',
+  iconComponent: SiTailwindcss,
+}
+
+export const reactQuery: TechnologyType = {
+  name: 'React Query',
+  iconComponent: SiReactquery,
 }

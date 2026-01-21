@@ -13,6 +13,8 @@ import {
   typeScript,
   redux,
   storyBook,
+  tailwind,
+  reactQuery,
 } from '@/data/technologies'
 
 const genericBadgeIcon = TbShare3
@@ -24,12 +26,13 @@ export const jobs: ExperienceType = {
     {
       dates: {
         from: 'May 2022',
+        to: 'Jan 2026',
       },
       title: 'Senior Frontend Software Engineer',
       organization: 'at-point',
       description:
-        'During my time at at-point, I had the opportunity to work on various projects for our banking clients, which aimed to digitalize their flows and products. I worked collaboratively with teams on some projects and independently on others. My responsibilities included working on the styling, performance, and implementation of these pre-existing projects, trying to push for well-typed code and best practices during the refactors.',
-      technologies: [react, typeScript, css, ruby],
+        "As a Senior Frontend Engineer at at-point, I built the internal tools and UI framework used in all our banking clients' projects. I worked closely with project teams to ensure our tools were fast, reusable, and easy to integrate. By enforcing and leveraging strict TypeScript standards and consistent coding practices, I made the codebase easier to scale and helped the team ship features more reliably.",
+      technologies: [react, typeScript, reactQuery, tailwind, css, ruby],
     },
     {
       dates: {
