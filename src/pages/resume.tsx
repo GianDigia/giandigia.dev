@@ -22,7 +22,7 @@ const Resume: NextPageWithLayout = () => (
         </div>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </div>
   </div>
 )

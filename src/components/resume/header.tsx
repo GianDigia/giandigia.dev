@@ -10,6 +10,7 @@ export const Header: FC = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.name}>Gianmarco Digiacomo</div>
+      <div className={styles.email}>digiacomogianmarco@gmail.com</div>
 
       <div className={styles.subtitle}>Frontend Software Engineer</div>
 
